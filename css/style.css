@@ -1,0 +1,13 @@
+/* pound (#) sign is shorthand for id */
+h1 {
+    color: blue;
+}
+#two {
+    color: green;
+}
+
+/* The dot (.) sign is shorthand for class */
+
+/* The star (*) selector that selects all the tags in the page */
+
+/* We cab group the selectors by separating them with comas */
