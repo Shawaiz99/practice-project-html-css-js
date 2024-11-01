@@ -15,6 +15,26 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: lightgray;
+    position: relative;
+    left: 425px;    
+}
+
+.economy-section {
+    background-color: burlywood;
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.luxury-section {
+    background-color: rgba(165, 42, 42, 0.708);
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.family-section {
+    background-color: beige;
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 h3.economy {
