@@ -1,13 +1,35 @@
 /* pound (#) sign is shorthand for id */
-h1 {
-    color: blue;
+/* h1 { */
+    /* color: blue;
 }
 #two {
     color: green;
-}
+} */
 
 /* The dot (.) sign is shorthand for class */
 
 /* The star (*) selector that selects all the tags in the page */
 
 /* We cab group the selectors by separating them with comas */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgray;
+}
+
+h3.economy {
+    color: coral;
+}
+
+h3.luxury {
+    color: #ee0ae2;
+}
+
+h3.family {
+    color: rgba(100, 200, 200, 0.9)
+}
+
+
+
+
+
