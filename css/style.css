@@ -16,7 +16,8 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: lightgray;
     position: relative;
-    left: 425px;    
+    left: 425px;  
+    margin: 20px auto;  
 }
 
 .economy-section {
