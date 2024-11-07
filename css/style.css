@@ -1,55 +1,21 @@
-/* pound (#) sign is shorthand for id */
-/* h1 { */
-    /* color: blue;
-}
-#two {
-    color: green;
-} */
-
-/* The dot (.) sign is shorthand for class */
-
-/* The star (*) selector that selects all the tags in the page */
-
-/* We cab group the selectors by separating them with comas */
-
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+/* Customize the Container */
+.flex-container {
     background-color: lightgray;
-    position: relative;
-    left: 425px;  
-    margin: 20px auto;  
+    width: 100%;
+    height: 50vh;
+
+    /* Set to Flex */
+    display: flex;
 }
 
-.economy-section {
-    background-color: burlywood;
-    width: 25%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+/* Customize the Style of all Inner Elements */
+.flex-item {
 
-.luxury-section {
-    background-color: rgba(165, 42, 42, 0.708);
-    width: 25%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-.family-section {
-    background-color: beige;
-    width: 25%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-h3.economy {
-    color: coral;
-}
-
-h3.luxury {
-    color: #ee0ae2;
-}
-
-h3.family {
-    color: rgba(100, 200, 200, 0.9)
-}
-
 
 
 
