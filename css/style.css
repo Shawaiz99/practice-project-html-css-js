@@ -35,6 +35,28 @@ body {
     justify-content: space-between;
 }
 
+.header .brand {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.header .navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Modify link when hovered over */
+.navbar a:hover {
+    color: rgb(40, 106, 228);
+}
+
+/* Style footer section */
 .footer {
-    background-color: #2c3f50; 
+    background-color: #2c3f50;
 }
