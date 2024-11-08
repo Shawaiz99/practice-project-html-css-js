@@ -8,3 +8,18 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+/* Customize the Container */
+.container {
+    /* temp property */
+    /* background-color: lightgray; */
+    
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .main, .footer {
+    padding: 20px;
+}
