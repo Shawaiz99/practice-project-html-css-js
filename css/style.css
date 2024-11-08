@@ -1,22 +1,10 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
-
-/* Customize the Container */
-.flex-container {
-    background-color: lightgray;
-    width: 100%;
-    height: 50vh;
-
-    /* Set to Flex */
-    display: flex;
-}
-
-/* Customize the Style of all Inner Elements */
-.flex-item {
-
-}
-
-
-
-
