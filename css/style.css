@@ -72,3 +72,41 @@ body {
     color: white;
     font-size: 12px;
 }
+
+/* Style main section */
+.main {
+    flex: 1;
+    display: flex;
+    gap: 50px;
+}
+
+/* Style section */
+.section {
+    flex: 2;
+    padding: 20px 0 20px 20px;
+}
+
+.sidebar {
+    flex: 1;
+}
+
+/* Style the article card */
+.article {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.article h2 {
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.article p {
+    margin-bottom: 10px;
+}
+
+.article .image {
+    margin-bottom: 10px;
+}
