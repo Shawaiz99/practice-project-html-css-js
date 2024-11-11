@@ -5,5 +5,32 @@
 }
 
 .container {
+    /* background-color: aqua; */
+    height: 100dvh;
+    width: 100dvw;
     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.login-section {
+    /* display: flex;
+    flex-direction: column; */
+    /* background-color: blue; */
+    width: 250px;
+    height: 250px;
+    flex: 1;
+}
+
+.register-section {
+    flex: 1;
 }
