@@ -1,1 +1,33 @@
 /* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 90dvh;
+    background-color: aqua;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    height: 5dvh;
+}
+
+.flex-item {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

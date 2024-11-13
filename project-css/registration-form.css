@@ -23,14 +23,20 @@
 }
 
 .login-section {
-    /* display: flex;
-    flex-direction: column; */
-    /* background-color: blue; */
     width: 250px;
     height: 250px;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#login, #submit {
+    width: 50px;
 }
 
 .register-section {
+        width: 250px;
+    height: 250px;
     flex: 1;
 }
