@@ -50,6 +50,18 @@
     gap: 15px;
 }
 
+.stretchinput {
+    display: flex;
+}
+
+.stretchinput input{
+    flex: 1;
+}
+
+.name .card {
+    flex: 1;
+}
+
 .email-card-container {
     display: flex;
 }
