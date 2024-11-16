@@ -71,4 +71,9 @@
     flex: 1;
 }
 
+.checkbox {
+    display: flex;
+    gap: 5px;
+}
+
 
