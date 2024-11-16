@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+body {
+    font-family: 'Nunito', sans-serif;
+}
 
 .container {
     height: 100vh;
@@ -99,5 +101,10 @@
     width: 100px;
     color: white;
     gap: 20px;
+}
+
+img {
+    height: 75px;
+    background-color: rgba(211, 211, 211, 0.146);
 }
 
