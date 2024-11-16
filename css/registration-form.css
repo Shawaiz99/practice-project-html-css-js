@@ -22,8 +22,8 @@
     align-items: center;
     flex: 1;
     gap: 0px;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    margin-top: 300px;
+    margin-bottom: 300px;
     box-shadow: 0 4px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
 }
@@ -35,6 +35,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-color: rgba(211, 211, 211, 0.146);
 }
 
 #login, #submit {
@@ -81,4 +82,22 @@
     gap: 5px;
 }
 
+#login {
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    width: 100px;
+    color: white;
+}
+
+#submit {
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    width: 100px;
+    color: white;
+    gap: 20px;
+}
 
