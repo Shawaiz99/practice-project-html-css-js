@@ -1,35 +1,31 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
-    height: 100vh;
+  font-family: "Nunito", sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    background-color: rebeccapurple;
     width: 100vw;
-    /* background-color: aqua; */
-    display: flex;
+    height: 100vh;
+    gap: 10px;
 }
 
-.container {
-    /* background-color: yellow; */
-    flex-direction: row;
+.flex-item {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 15vw;
+    height: 25vh;
+    background-color: salmon;
+    padding: 20px;
     flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center; 
 }
 
-.center {
-    background-color: brown;
-    flex: 1;
-    height: 50%;
-    width: 50%;
-}
+.item1, .item2 {
 
-.zug {
-    /* background-color: black; */
-    flex: 1;
 }
