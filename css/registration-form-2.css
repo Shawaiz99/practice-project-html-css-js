@@ -5,27 +5,6 @@
 }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
-.flex-container {
-    display: flex;
-    background-color: rebeccapurple;
-    width: 100vw;
-    height: 100vh;
-    gap: 10px;
-}
-
-.flex-item {
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 15vw;
-    height: 25vh;
-    background-color: salmon;
-    padding: 20px;
-    flex: 1;
-}
-
-.item1, .item2 {
-
-}
