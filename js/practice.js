@@ -1,28 +1,23 @@
-// - Dom  Basics
+// Selecting Single Elements from DOM
+
 window.onload = function() {
-// Window is the global object in DOM
-console.log(window);
 
-// Document Object
-// console.log(window.document);
-console.log(document);
+// It will return an element as an object unless it's not found;
+// then it returns null.
+// getElementById()
+// querySelector()
 
-// Access the title
-console.log(document.title);
+// const goalTrackerElement = document.getElementById("goal-tracker");
+// console.log(goalTrackerElement);
 
-// Head and Body
-console.log(document.head);
+// querySelector() - you can provide any selector you need; from simple to advanced
 
-// Body
-console.log(document.body);
+// Select by ID # - need to add shortcut for id
+// const addGoalButton = document.querySelector('#add-goal');
+// console.log(addGoalButton);
 
-// Access the inner HTML of the body
-// console.log(document.body.innerHTML);
-
-// Modify what is inside of the tag
-// document.body.innerHTML = '<h3>I changed the header. Get bent scrubs<h3>'
-
-console.log(document.getElementById('main'));
-
+// Accessing the attributes and modifying them
+const goalTrackerEl = document.querySelector('#goal-tracker');
+goalTrackerEl.getAttribute('class');
 
 };
