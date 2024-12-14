@@ -1,23 +1,36 @@
-// Selecting Single Elements from DOM
+window.onload = function () {
 
-window.onload = function() {
+// Being able to create the elements in DOM dynamically via JS
 
-// It will return an element as an object unless it's not found;
-// then it returns null.
-// getElementById()
-// querySelector()
+// create an element in the container
 
-// const goalTrackerElement = document.getElementById("goal-tracker");
-// console.log(goalTrackerElement);
+const myDivElement = document.createElement('div');
+// add attributes
+myDivElement.className = 'new-item';
+myDivElement.id = 'item-1';
 
-// querySelector() - you can provide any selector you need; from simple to advanced
+//adding content
+myDivElement.textContent = 'zug zug';
 
-// Select by ID # - need to add shortcut for id
-// const addGoalButton = document.querySelector('#add-goal');
-// console.log(addGoalButton);
+// adding html inside as content
+myDivElement.innerHTML = `<p>TNew tag boy</p>`
 
-// Accessing the attributes and modifying them
-const goalTrackerEl = document.querySelector('#goal-tracker');
-goalTrackerEl.getAttribute('class');
+// creating the new paragraph with function
+const p = document.createElement('P');
+p.innerText = 'zug zug';
+myDivElement.appendChild(p);
+
+// to actually get the element created by js into the dom.
+// we need to append it. We could first locate the parent element
+// and then add it to the element
+
+const newContainer = document.querySelector(`.container`);
+newContainer.appendChild(myDivElement);
+
+console.log(myDivElement);
+
+
+
+
 
 };
