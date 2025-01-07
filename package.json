@@ -1,0 +1,15 @@
+{
+  "name": "practice-project-html-css",
+  "version": "1.0.0",
+  "description": "This repository provides a basic folder structure and boilerplate to help you get started with simple web projects involving HTML, CSS, and JavaScript. It's perfect for practicing fundamental web development skills and building simple yet effective web applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
